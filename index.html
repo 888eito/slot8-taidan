@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>実績者対談 特別ダイジェスト｜パチスロ攻略 エイト</title>
+<meta name="description" content="入会後に人生が変わった3人のリアル対談。年間マイナス収支から月+70万まで、その頭の中を3分でダイジェスト。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#07070f;
+    --gold:#f5c542;
+    --gold2:#ffe8a3;
+    --red:#ff3b5c;
+    --cyan:#3fd8ff;
+    --line:#06C755;
+    --card:#12121f;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Noto Sans JP',system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;
+    background:var(--bg);
+    color:#fff;
+    overflow-x:hidden;
+    line-height:1.6;
+  }
+  /* ===== background ===== */
+  .bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .bg-fx::before{
+    content:"";position:absolute;inset:-20%;
+    background:
+      radial-gradient(circle at 20% 15%, rgba(245,197,66,.10), transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(63,216,255,.07), transparent 45%),
+      radial-gradient(circle at 55% 100%, rgba(255,59,92,.08), transparent 40%);
+  }
+  .grid-floor{
+    position:absolute;left:-50%;right:-50%;bottom:-12vh;height:52vh;
+    background:
+      linear-gradient(transparent 0%, rgba(7,7,15,.9) 90%),
+      repeating-linear-gradient(90deg, rgba(245,197,66,.14) 0 1px, transparent 1px 60px),
+      repeating-linear-gradient(0deg, rgba(245,197,66,.14) 0 1px, transparent 1px 42px);
+    transform:perspective(500px) rotateX(62deg);
+    transform-origin:bottom;
+  }
+  .float-el{position:absolute;font-weight:900;user-select:none;opacity:.14;animation:floaty 9s ease-in-out infinite}
+  .f7{color:var(--gold);text-shadow:0 0 22px rgba(245,197,66,.9);font-size:64px;font-style:italic}
+  .fbar{color:var(--cyan);text-shadow:0 0 18px rgba(63,216,255,.8);font-size:26px;letter-spacing:.1em}
+  .fdia{color:var(--red);text-shadow:0 0 18px rgba(255,59,92,.8);font-size:34px}
+  @keyframes floaty{
+    0%,100%{transform:translateY(0) rotate(-8deg) scale(1)}
+    50%{transform:translateY(-34px) rotate(8deg) scale(1.06)}
+  }
+  main{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:0 18px}
+
+  /* ===== hero ===== */
+  .hero{min-height:96svh;display:flex;flex-direction:column;justify-content:center;text-align:center;padding:48px 0 24px;perspective:900px}
+  .hero-badge{
+    display:inline-block;margin:0 auto 18px;padding:7px 18px;border-radius:999px;
+    border:1px solid rgba(245,197,66,.55);color:var(--gold2);
+    font-size:12px;font-weight:700;letter-spacing:.22em;
+    background:rgba(245,197,66,.08);
+    animation:pulseb 2.6s ease-in-out infinite;
+  }
+  @keyframes pulseb{0%,100%{box-shadow:0 0 0 0 rgba(245,197,66,.35)}50%{box-shadow:0 0 22px 4px rgba(245,197,66,.18)}}
+  .hero h1{
+    font-size:clamp(30px,8.6vw,44px);font-weight:900;line-height:1.28;
+    transform-style:preserve-3d;animation:heroIn 1.1s cubic-bezier(.2,.8,.2,1) both;
+  }
+  @keyframes heroIn{from{opacity:0;transform:rotateX(35deg) translateY(50px)}to{opacity:1;transform:rotateX(0) translateY(0)}}
+  .hero h1 .gold{
+    background:linear-gradient(180deg,#fff2c8 5%,var(--gold) 42%,#c98f12 60%,#ffe9ad 92%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 3px 14px rgba(245,197,66,.35));
+  }
+  .hero h1 .white-sm{display:block;font-size:.52em;color:#e8e8f2;margin-bottom:6px;letter-spacing:.06em}
+  .hero p.lead{margin-top:20px;color:#c9c9da;font-size:14.5px;font-weight:700}
+  .hero p.lead b{color:var(--gold2)}
+  .hero .meta{margin-top:14px;font-size:12px;color:#8a8aa0;letter-spacing:.12em}
+  .scroll-cue{margin:34px auto 0;width:26px;height:44px;border:2px solid rgba(255,255,255,.35);border-radius:14px;position:relative}
+  .scroll-cue::after{content:"";position:absolute;left:50%;top:8px;width:4px;height:9px;margin-left:-2px;border-radius:3px;background:var(--gold);animation:cue 1.6s ease-in-out infinite}
+  @keyframes cue{0%{transform:translateY(0);opacity:1}70%{transform:translateY(16px);opacity:0}100%{opacity:0}}
+
+  /* ===== section title ===== */
+  .sec-head{text-align:center;margin:8px 0 26px}
+  .sec-head .en{font-size:11px;letter-spacing:.4em;color:var(--gold);font-weight:700}
+  .sec-head h2{font-size:22px;font-weight:900;margin-top:6px}
+
+  /* ===== cards ===== */
+  .card-wrap{perspective:1100px;margin-bottom:44px}
+  .card{
+    position:relative;border-radius:22px;background:linear-gradient(165deg,#171728 0%,#0e0e1a 100%);
+    border:1px solid rgba(245,197,66,.22);
+    box-shadow:0 24px 60px -18px rgba(0,0,0,.85), 0 0 0 1px rgba(255,255,255,.03) inset;
+    transform-style:preserve-3d;
+    transition:transform .18s ease-out;
+    opacity:0;transform:translateY(60px) rotateX(14deg);
+  }
+  .card.reveal{opacity:1;transform:translateY(0) rotateX(0);transition:opacity .8s ease,transform .9s cubic-bezier(.19,1,.22,1)}
+  .card-glow{position:absolute;inset:-1px;border-radius:22px;pointer-events:none;
+    background:radial-gradient(420px circle at var(--mx,50%) var(--my,20%), rgba(245,197,66,.13), transparent 55%)}
+  .thumb{
+    display:block;position:relative;border-radius:21px 21px 0 0;overflow:hidden;aspect-ratio:16/9;
+    background:linear-gradient(135deg,#1c1c30,#101020);
+    transform:translateZ(34px);
+  }
+  .thumb img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
+  .thumb .fallback{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-weight:900;font-size:20px;color:rgba(245,197,66,.75);letter-spacing:.1em;
+    background:
+      radial-gradient(circle at 30% 30%, rgba(245,197,66,.12), transparent 50%),
+      radial-gradient(circle at 75% 70%, rgba(255,59,92,.12), transparent 50%),
+      linear-gradient(135deg,#1c1c30,#101020);
+  }
+  .thumb .num{
+    position:absolute;top:10px;left:10px;z-index:2;
+    background:linear-gradient(180deg,var(--gold),#c98f12);color:#1a1200;
+    font-weight:900;font-size:12px;padding:4px 12px;border-radius:999px;letter-spacing:.08em;
+    box-shadow:0 4px 14px rgba(0,0,0,.5);
+  }
+  .thumb .dur{position:absolute;right:10px;bottom:10px;z-index:2;background:rgba(0,0,0,.75);font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px}
+  .thumb .play{
+    position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55));
+  }
+  .play .tri{
+    width:64px;height:64px;border-radius:50%;
+    background:rgba(255,59,92,.92);display:flex;align-items:center;justify-content:center;
+    box-shadow:0 0 0 8px rgba(255,59,92,.22),0 10px 30px rgba(0,0,0,.5);
+    animation:pulsep 2.2s ease-in-out infinite;
+  }
+  @keyframes pulsep{0%,100%{box-shadow:0 0 0 8px rgba(255,59,92,.22),0 10px 30px rgba(0,0,0,.5)}50%{box-shadow:0 0 0 16px rgba(255,59,92,.08),0 10px 30px rgba(0,0,0,.5)}}
+  .tri::after{content:"";margin-left:5px;border-style:solid;border-width:12px 0 12px 20px;border-color:transparent transparent transparent #fff}
+  .card-body{padding:20px 18px 22px;transform:translateZ(24px)}
+  .profile{font-size:12px;font-weight:700;color:var(--cyan);letter-spacing:.06em;margin-bottom:4px}
+  .card-body h3{font-size:19px;font-weight:900;line-height:1.4}
+  .stats{display:flex;gap:8px;margin:14px 0 6px;flex-wrap:wrap}
+  .stat{
+    flex:1;min-width:88px;text-align:center;border-radius:14px;padding:10px 6px;
+    background:rgba(245,197,66,.07);border:1px solid rgba(245,197,66,.25);
+  }
+  .stat .lb{display:block;font-size:10px;color:#b9b9cc;font-weight:700;letter-spacing:.05em}
+  .stat .vl{display:block;font-size:19px;font-weight:900;color:var(--gold2);line-height:1.25;text-shadow:0 0 16px rgba(245,197,66,.35)}
+  .stat .vl small{font-size:11px}
+  .arrow-stat{
+    margin:10px 0 2px;text-align:center;border-radius:14px;padding:10px;
+    background:linear-gradient(90deg,rgba(255,59,92,.10),rgba(245,197,66,.12));
+    border:1px solid rgba(255,255,255,.09);
+    font-weight:900;font-size:15.5px;
+  }
+  .arrow-stat .before{color:#9d9db4;text-decoration:line-through solid rgba(255,59,92,.7) 2px}
+  .arrow-stat .aft{color:var(--gold);font-size:1.25em;text-shadow:0 0 18px rgba(245,197,66,.5)}
+  .arrow-stat .ar{color:var(--red);margin:0 6px}
+  ul.points{list-style:none;margin-top:14px}
+  ul.points li{
+    position:relative;padding:10px 12px 10px 40px;font-size:13.5px;font-weight:700;color:#e6e6f2;
+    border-bottom:1px dashed rgba(255,255,255,.1);
+  }
+  ul.points li:last-child{border-bottom:none}
+  ul.points li::before{
+    content:"▶";position:absolute;left:10px;top:11px;
+    color:var(--red);font-size:12px;text-shadow:0 0 10px rgba(255,59,92,.7);
+  }
+  ul.points li q{color:var(--gold2);font-style:normal;quotes:"「" "」"}
+  ul.points li .ts{color:#7d7d95;font-size:11px;font-weight:400;margin-left:4px;white-space:nowrap}
+  .watch-btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    margin-top:16px;padding:15px;border-radius:14px;text-decoration:none;
+    background:linear-gradient(180deg,#ff5570,#e01f42);color:#fff;
+    font-weight:900;font-size:15.5px;letter-spacing:.04em;
+    box-shadow:0 10px 26px -8px rgba(255,59,92,.65);
+    transition:transform .15s ease;
+  }
+  .watch-btn:active{transform:scale(.97)}
+  .watch-btn .yt{width:26px;height:18px;background:#fff;border-radius:5px;position:relative;flex-shrink:0}
+  .watch-btn .yt::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-40%,-50%);border-style:solid;border-width:5px 0 5px 8px;border-color:transparent transparent transparent #e01f42}
+
+  /* ===== CTA ===== */
+  .cta{
+    margin:56px 0 30px;text-align:center;border-radius:24px;padding:34px 20px 30px;position:relative;overflow:hidden;
+    background:linear-gradient(165deg,#0d1f14,#0a1410);
+    border:1px solid rgba(6,199,85,.45);
+    box-shadow:0 0 60px -18px rgba(6,199,85,.45);
+  }
+  .cta::before{content:"";position:absolute;top:-60%;left:-30%;width:60%;height:220%;transform:rotate(20deg);
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.07),transparent);animation:sheen 3.4s ease-in-out infinite}
+  @keyframes sheen{0%{left:-40%}60%,100%{left:120%}}
+  .cta .tag{display:inline-block;font-size:11px;font-weight:900;letter-spacing:.2em;color:#0a1410;
+    background:linear-gradient(180deg,#7dffb0,var(--line));padding:5px 14px;border-radius:999px;margin-bottom:14px}
+  .cta h2{font-size:21px;font-weight:900;line-height:1.5}
+  .cta h2 b{color:#7dffb0}
+  .cta p{font-size:13px;color:#bfe9cf;margin-top:10px;font-weight:700}
+  .line-btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    margin:18px auto 0;padding:16px 10px;border-radius:999px;max-width:340px;text-decoration:none;
+    background:linear-gradient(180deg,#22e078,#06C755);color:#fff;font-weight:900;font-size:15px;white-space:nowrap;
+    box-shadow:0 12px 30px -8px rgba(6,199,85,.7);
+    transition:transform .15s ease;
+  }
+  .line-btn:active{transform:scale(.97)}
+  .line-ico{width:26px;height:26px;border-radius:7px;background:#fff;color:var(--line);font-weight:900;font-size:10.5px;display:flex;align-items:center;justify-content:center;letter-spacing:0}
+  .cta .note{font-size:11px;color:#89ac97;margin-top:12px}
+  footer{padding:8px 0 46px;text-align:center;color:#5c5c72;font-size:11px;letter-spacing:.06em}
+</style>
+</head>
+<body>
+
+<div class="bg-fx">
+  <div class="float-el f7" style="top:6%;left:6%;animation-delay:0s">7</div>
+  <div class="float-el fdia" style="top:14%;right:8%;animation-delay:-3s">◆</div>
+  <div class="float-el fbar" style="top:38%;left:-4px;animation-delay:-5s">BAR</div>
+  <div class="float-el f7" style="top:56%;right:4%;animation-delay:-2s;font-size:44px">7</div>
+  <div class="float-el fdia" style="top:76%;left:8%;animation-delay:-6s">◆</div>
+  <div class="float-el fbar" style="top:88%;right:10%;animation-delay:-1s">BAR</div>
+  <div class="grid-floor"></div>
+</div>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <span class="hero-badge">LINE友だち限定公開</span>
+      <h1><span class="white-sm">「普通の男」が変わった瞬間</span>
+        <span class="gold">実績者対談</span><br><span class="gold">3本一挙公開</span></h1>
+      <p class="lead">会社員・兼業・経営者。<br>環境も稼働時間もバラバラの3人が、<br>なぜ<b>「勝ち続ける側」</b>になれたのか。</p>
+      <p class="meta">全3本 ／ 各10分前後 ／ 通勤・休憩中でもOK</p>
+      <div class="scroll-cue"></div>
+    </div>
+  </section>
+
+  <!-- DIGEST -->
+  <section>
+    <div class="sec-head">
+      <div class="en">DIGEST</div>
+      <h2>3分でわかる 見どころダイジェスト</h2>
+    </div>
+
+    <!-- 動画1: Hさん -->
+    <div class="card-wrap">
+      <div class="card" data-tilt>
+        <div class="card-glow"></div>
+        <a class="thumb" href="https://www.youtube.com/watch?v=9iw8OC6H6xE" target="_blank" rel="noopener">
+          <span class="num">対談 #04</span>
+          <span class="fallback">▶ 実績者対談 #04</span>
+          <img src="https://i.ytimg.com/vi/9iw8OC6H6xE/maxresdefault.jpg" alt="実績者対談 Hさん" loading="lazy" onerror="this.style.display='none'">
+          <span class="play"><span class="tri"></span></span>
+          <span class="dur">13:27</span>
+        </a>
+        <div class="card-body">
+          <div class="profile">土日休みの会社員（管理職）｜Hさん</div>
+          <h3>「俺は運が悪いだけ」<br>…その思い込みが崩れた1年</h3>
+          <div class="arrow-stat"><span class="before">年間 −50万超</span><span class="ar">▶▶</span><span class="aft">＋70万超</span></div>
+          <div class="stats">
+            <div class="stat"><span class="lb">月間勝率</span><span class="vl">17%→82%</span></div>
+            <div class="stat"><span class="lb">稼働スタイル</span><span class="vl"><small>土日＋平日夜</small></span></div>
+          </div>
+          <ul class="points">
+            <li><q>今にして思うと、全てが間違ってた</q>——負け続けた本当の原因<span class="ts">(0:00〜)</span></li>
+            <li>一番難しい「閉店間際の押し引き」を、その場の即レス相談で乗り切る裏側<span class="ts">(11:07〜)</span></li>
+            <li><q>負けてるのには必ず理由がある。運でも店のせいでもない</q><span class="ts">(11:45〜)</span></li>
+          </ul>
+          <a class="watch-btn" href="https://www.youtube.com/watch?v=9iw8OC6H6xE" target="_blank" rel="noopener"><span class="yt"></span>この対談をYouTubeで見る</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 動画2: たろんさん -->
+    <div class="card-wrap">
+      <div class="card" data-tilt>
+        <div class="card-glow"></div>
+        <a class="thumb" href="https://www.youtube.com/watch?v=CksUyXUSr1Y" target="_blank" rel="noopener">
+          <span class="num">対談 #05</span>
+          <span class="fallback">▶ 実績者対談 #05</span>
+          <img src="https://i.ytimg.com/vi/CksUyXUSr1Y/maxresdefault.jpg" alt="実績者対談 たろんさん" loading="lazy" onerror="this.style.display='none'">
+          <span class="play"><span class="tri"></span></span>
+        </a>
+        <div class="card-body">
+          <div class="profile">設定狙い未経験からの兼業｜たろんさん</div>
+          <h3>設定6を見たことすらなかった男が<br>月平均＋70万になるまで</h3>
+          <div class="arrow-stat"><span class="before">456童貞</span><span class="ar">▶▶</span><span class="aft">月平均＋70万円</span></div>
+          <div class="stats">
+            <div class="stat"><span class="lb">少ない月でも</span><span class="vl">＋50万</span></div>
+            <div class="stat"><span class="lb">多い月は</span><span class="vl">＋100万</span></div>
+          </div>
+          <ul class="points">
+            <li>設定4すら座ったことがなかった状態からのスタート<span class="ts">(5:02〜)</span></li>
+            <li>初ツモまで3ヶ月。それでも折れなかったのは<q>意味のある失敗</q>を積んでいたから<span class="ts">(5:38〜)</span></li>
+            <li>合宿・ホールリサーチ同行…コミュニティを"全部使う"人が結局一番稼ぐ<span class="ts">(0:48〜)</span></li>
+          </ul>
+          <a class="watch-btn" href="https://www.youtube.com/watch?v=CksUyXUSr1Y" target="_blank" rel="noopener"><span class="yt"></span>この対談をYouTubeで見る</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 動画3: たまごさん -->
+    <div class="card-wrap">
+      <div class="card" data-tilt>
+        <div class="card-glow"></div>
+        <a class="thumb" href="https://www.youtube.com/watch?v=6lNYl9Y5hkI" target="_blank" rel="noopener">
+          <span class="num">対談 #06</span>
+          <span class="fallback">▶ 実績者対談 #06</span>
+          <img src="https://i.ytimg.com/vi/6lNYl9Y5hkI/maxresdefault.jpg" alt="実績者対談 たまごさん" loading="lazy" onerror="this.style.display='none'">
+          <span class="play"><span class="tri"></span></span>
+        </a>
+        <div class="card-body">
+          <div class="profile">法人経営 × 休日稼働｜たまごさん</div>
+          <h3>朝から打てるのは週2日。<br>それでも時給2倍・収支8倍</h3>
+          <div class="arrow-stat"><span class="before">趣味打ち</span><span class="ar">▶▶</span><span class="aft">時給8,562円</span></div>
+          <div class="stats">
+            <div class="stat"><span class="lb">収支</span><span class="vl">8倍</span></div>
+            <div class="stat"><span class="lb">積める期待値</span><span class="vl">10倍</span></div>
+          </div>
+          <ul class="points">
+            <li><q>積める期待値は平均10倍。他とは比べものにならない</q><span class="ts">(0:00〜)</span></li>
+            <li>「パチスロは負けるもの」と思っていた経営者が勝ち組に回るまで<span class="ts">(4:46〜)</span></li>
+            <li>勝ち分は全額奥さんへ。好きな機種で勝ちにいく"大人の立ち回り"<span class="ts">(5:11〜)</span></li>
+          </ul>
+          <a class="watch-btn" href="https://www.youtube.com/watch?v=6lNYl9Y5hkI" target="_blank" rel="noopener"><span class="yt"></span>この対談をYouTubeで見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <span class="tag">無料特典 配布中</span>
+    <h2>3人と同じ景色を見にいくなら<br>まずは<b>オープンチャット</b>から</h2>
+    <p>オープンチャット「エイト＠特典配布」では<br>勝ちに直結する限定特典を無料配布しています。</p>
+    <a class="line-btn" href="https://line.me/ti/g2/e-ekFzyenF68NFTR5DQwtl6UdKSPkd8qPFZ79w?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" rel="noopener">
+      <span class="line-ico">LINE</span>参加して限定特典を受け取る
+    </a>
+    <p class="note">参加は無料・ニックネームOK・いつでも退出できます</p>
+  </section>
+
+  <footer>© パチスロ攻略 エイト ｜ 対談動画はLINE友だち限定公開です</footer>
+</main>
+
+<script>
+  // reveal on scroll
+  const io = new IntersectionObserver(es=>{
+    es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('reveal'); io.unobserve(e.target);} });
+  },{threshold:.15});
+  document.querySelectorAll('.card').forEach(c=>io.observe(c));
+
+  // 3D tilt (touch + mouse)
+  document.querySelectorAll('[data-tilt]').forEach(card=>{
+    const max = 7;
+    function move(x,y){
+      const r = card.getBoundingClientRect();
+      const px=(x-r.left)/r.width, py=(y-r.top)/r.height;
+      card.style.setProperty('--mx',(px*100)+'%');
+      card.style.setProperty('--my',(py*100)+'%');
+      if(!card.classList.contains('reveal')) return;
+      card.style.transform=`rotateY(${(px-.5)*max*2}deg) rotateX(${(py-.5)*-max*2}deg) translateZ(0)`;
+    }
+    function reset(){ if(card.classList.contains('reveal')) card.style.transform='rotateY(0) rotateX(0)'; }
+    card.addEventListener('pointermove',e=>move(e.clientX,e.clientY));
+    card.addEventListener('pointerleave',reset);
+    card.addEventListener('touchend',reset,{passive:true});
+  });
+
+  // subtle parallax of floating symbols with scroll
+  const floats=[...document.querySelectorAll('.float-el')];
+  addEventListener('scroll',()=>{
+    const y=scrollY;
+    floats.forEach((f,i)=>{ f.style.marginTop=((i%2?1:-1)*y*0.03)+'px'; });
+  },{passive:true});
+</script>
+</body>
+</html>
