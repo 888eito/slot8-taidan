@@ -288,7 +288,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <p>設定狙いで一番難しいのは店選び。あなたのホール状況・イベント日データを<b>エイト自らチェックして添削</b>します。これで優良店を見つけたメンバーが多数います。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178595_0-1-1024x576.jpg" alt="店舗チェック・添削の様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 04</span>
       <h3>LIVEサポートを月3回開催</h3>
-      <p>店分析・データの見方・狙い台の決め方・設定推測・新台考察まで解説。質問コーナー付き、<b>過去アーカイブ85本以上が見放題</b>。YouTube未公開の旅打ちの裏側も公開しています。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178594_0-1024x576.jpg" alt="LIVEサポートの様子" loading="lazy"></div>
+      <p>店分析・データの見方・狙い台の決め方・設定推測・新台考察まで解説。質問コーナー付き、<b>過去アーカイブ140本以上が見放題</b>。YouTube未公開の旅打ちの裏側も公開しています。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178594_0-1024x576.jpg" alt="LIVEサポートの様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 05</span>
       <h3>全国オフ会・懇親会</h3>
       <p>2ヶ月に1回ペースで主要都市にて開催（東京・名古屋・福岡・大阪・沖縄・北海道・仙台など）。<b>プロと一緒にホールで立ち回れる</b>、他にはない機会です。</p>
@@ -303,8 +303,6 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <p>他の解析サイトにはほとんど載っていない<b>【実際の高設定データ】【履歴読み】【メモ方法】</b>に加え、エイトの立ち回りポイントを簡潔に掲載。立ち回りに必須の情報だけが揃っています。</p>
       <div class="voices mini">
         <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-12-1-1024x576.png" alt="会員専用サイト" loading="lazy">
-        <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-15-1024x576.png" alt="会員専用サイト" loading="lazy">
-        <img src="https://pluslot8.com/wp-content/uploads/2025/02/S__132587563-1024x800.jpg" alt="会員専用サイト" loading="lazy">
       </div></div>
   </section>
 
@@ -331,8 +329,8 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <h2>結果は、数字が語ります</h2>
     </div>
     <div class="big-stat">
-      <div class="n"><span class="goldtxt">19人 全員</span></div>
-      <div class="l">2024年末の稼働報告で、報告者19人全員がプラス収支<br>うち過半数が＋100万円超え</div>
+      <div class="n"><span class="goldtxt">報告者 全員プラス</span></div>
+      <div class="l">直近の稼働報告では、報告者全員がプラス収支を達成<br>うち過半数が＋100万円超え</div>
     </div>
     <div class="mini-stats">
       <div class="ms"><span class="lb">土日休みの会社員</span><span class="vl">年−50万<br>→＋70万</span></div>
@@ -364,7 +362,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     </div>
     <div class="case"><div class="q">相談できる人がいない</div><div class="a">現役スロプロ陣ができるだけ早く回答。稼働中の相談にも、ホールデータを確認した上で助言します。</div></div>
     <div class="case"><div class="q">期待値を追っても負けてしまう</div><div class="a">稼働後の結果報告を指導者が添削。修正点が明確になるので、収支の向上に直結します。</div></div>
-    <div class="case"><div class="q">どうすれば設定狙いで勝てるか分からない</div><div class="a">過去LIVE動画85本以上が見放題。基礎から応用、店分析まで具体的に紐解いています。</div></div>
+    <div class="case"><div class="q">どうすれば設定狙いで勝てるか分からない</div><div class="a">過去LIVE動画140本以上が見放題。基礎から応用、店分析まで具体的に紐解いています。</div></div>
     <div class="case"><div class="q">他の人の立ち回りを知りたい</div><div class="a">メンバーの稼働報告と指導者の添削の両方が見られるので、他者の経験を自分に落とし込めます。</div></div>
     <div class="case"><div class="q">高設定が入っているか判断できない</div><div class="a">店舗データや稼働内容を指導者が確認し、認識のズレをその都度修正していきます。</div></div>
     <div class="case"><div class="q">自分の狙いを事前に見てほしい</div><div class="a">前日までに店舗名・イベント名・狙い台を書き込めば、指導者が添削して具体的に助言します。</div></div>
@@ -376,7 +374,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <div class="en">STORY</div>
       <h2>このコミュニティを<br>作った理由</h2>
     </div>
-    <img class="story-photo" src="https://pluslot8.com/wp-content/uploads/2026/03/%E6%9C%AC%E6%96%87%E3%82%92%E8%BF%BD%E5%8A%A0-18-1024x683.png" alt="エイト" loading="lazy">
+    <img class="story-photo" src="https://pluslot8.com/wp-content/uploads/2026/07/community-owner-2026.jpg" alt="エイト" loading="lazy">
     <div class="story">
       <p>僕はこれまでに、周りの人と同じように働き、遊びながらパチスロで勝ち続けてきました。今ではどこへ行っても勝てるようにもなり『いつもYouTube見てます』とか『弟子にしてください』と言われるようにまでなりましたが、元々は<b>月に40万円負けたり</b>、勝ちたいのに勝てないことがきっかけで、<b>30万円の嘘の攻略法を買った</b>経験もあります。</p>
       <p>勝つためには<b>【勝てる人の意見や考え方を知ることが重要】</b>と気づいていたものの、自分の力だけでなんとかしようとした結果、何から手をつけて良いか分からず、迷ったり悩んだりの連続だったことを鮮明に覚えています。</p>
@@ -411,7 +409,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     <details class="faq"><summary>どんな内容が学べますか？</summary><div class="body">パチスロで勝つための全てを扱いますが、特に設定狙いを深掘りしています。ホールデータの取り方、クセ読み、状況把握、ホール内での動き方まで。期待値稼働のプロも多数在籍し、入会したその日から相談できます。</div></details>
     <details class="faq"><summary>パソコンは必要ですか？</summary><div class="body">スマホ1つで完結します。日々のやり取り、データ取り、資料や動画、メンバー限定LIVEまで全てスマホで参加可能。稼働しながら参加する方もいます。</div></details>
     <details class="faq"><summary>他のメンシプやコミュニティと何が違うのですか？</summary><div class="body">実戦経験豊富な指導者から直接フィードバックを受けられる点です。稼働中の相談に即時回答が得られ、ホールデータも確認してもらえます。月3回のLIVE、オフ会・同行・合宿など、プロと一緒に立ち回れる機会があるのも大きな違いです。</div></details>
-    <details class="faq"><summary>入会すれば必ず収支アップしますか？</summary><div class="body">実収支が必ずプラスになるとは言えませんが、理論上プラスの立ち回りが身につくため、多くのメンバーが収支を伸ばしています。2024年末の稼働報告では、報告者19人全員がプラス収支、過半数が100万円超えを記録しました。</div></details>
+    <details class="faq"><summary>入会すれば必ず収支アップしますか？</summary><div class="body">実収支が必ずプラスになるとは言えませんが、理論上プラスの立ち回りが身につくため、多くのメンバーが収支を伸ばしています。直近の稼働報告では、報告者全員がプラス収支、過半数が100万円超えを記録しています。</div></details>
     <details class="faq"><summary>本当にサポートしてくれますか？</summary><div class="body">エイト含め指導者は、質問の全てに全力で回答しています。立ち回りの問題や悩みは、チャットで質問いただければ解決していきます。</div></details>
     <details class="faq"><summary>退会条件はありますか？</summary><div class="body">1ヶ月ごとの前払い制で、期間の縛りはなくいつでも退会可能です。退会希望の場合は1週間前までに、エイトへの連絡と退会フォームの入力をお願いしています。</div></details>
   </section>
@@ -427,7 +425,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <ul>
         <li>期間の縛りなし・いつでも退会OK</li>
         <li>入会したその日から相談できる</li>
-        <li>LIVEアーカイブ85本以上が見放題</li>
+        <li>LIVEアーカイブ140本以上が見放題</li>
         <li>スマホ1つで完結</li>
       </ul>
       <a class="cta-btn" href="PAYMENT_URL_HERE">今すぐコミュニティに参加する<span class="ar">▶</span></a>
