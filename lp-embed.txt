@@ -427,23 +427,32 @@ html,body,#container,#body,#wrap,.wrap,.body,.main-wrap,#main-wrap{background:#0
 (function(){
   try{
     var els=document.querySelectorAll('.reveal-el');
+    var i;
     if('IntersectionObserver' in window){
-      var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');ob.unobserve(e.target);}});},{threshold:.12});
-      els.forEach(function(x){ob.observe(x);});
-    } else { els.forEach(function(x){x.classList.add('on');}); }
+      var ob=new IntersectionObserver(function(es){
+        es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); ob.unobserve(e.target); } });
+      },{threshold:.12});
+      for(i=0;i<els.length;i++){ ob.observe(els[i]); }
+    } else {
+      for(i=0;i<els.length;i++){ els[i].classList.add('on'); }
+    }
     var sticky=document.getElementById('stickyCta');
     var hero=document.querySelector('.hero');
     var join=document.getElementById('join');
-    if(sticky&&hero&&join){
+    if(sticky){ if(hero){ if(join){
       window.addEventListener('scroll',function(){
         var past=window.scrollY>hero.offsetHeight*0.7;
         var r=join.getBoundingClientRect();
-        var atJoin=r.top<window.innerHeight&&r.bottom>0;
-        sticky.classList.toggle('show',past&&!atJoin);
+        var inViewTop=r.top<window.innerHeight;
+        var inViewBottom=r.bottom>0;
+        var atJoin=inViewTop?inViewBottom:false;
+        var show=past?(atJoin?false:true):false;
+        sticky.classList.toggle('show',show);
       },{passive:true});
-    }
+    }}}
   }catch(err){
-    document.querySelectorAll('.reveal-el').forEach(function(x){x.classList.add('on');});
+    var all=document.querySelectorAll('.reveal-el');
+    for(var k=0;k<all.length;k++){ all[k].classList.add('on'); }
   }
 })();
 </script>
