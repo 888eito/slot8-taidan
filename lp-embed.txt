@@ -222,7 +222,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <div class="chips">
         <span class="chip">指導者8名</span><span class="chip">稼働中の即レス相談</span><span class="chip">LIVEサポート月3回</span><span class="chip">コミュニティ限定サイト</span>
       </div>
-      <a class="cta-btn" href="#join">今すぐコミュニティに参加する<span class="ar">▶</span></a>
+      <a class="cta-btn" href="PAYMENT_URL_HERE">今すぐコミュニティに参加する<span class="ar">▶</span></a>
       <p class="micro">月額9,800円｜期間の縛りなし｜スマホ1つでOK</p>
     </div>
   </section>
@@ -350,7 +350,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339348_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
     </div>
     <p class="swipe-hint">← スワイプで他の声も見られます →</p>
-    <a class="cta-btn" href="#join">この環境に参加する<span class="ar">▶</span></a>
+    <a class="cta-btn" href="PAYMENT_URL_HERE">この環境に参加する<span class="ar">▶</span></a>
   </section>
 
   <!-- 活用例 -->
@@ -436,7 +436,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
 <!-- sticky CTA -->
 <div class="sticky-cta" id="stickyCta">
   <div class="pr">月額9,800円<b>縛りなし</b></div>
-  <a href="#join">今すぐ参加する ▶</a>
+  <a href="PAYMENT_URL_HERE">今すぐ参加する ▶</a>
 </div>
 
 <script>
