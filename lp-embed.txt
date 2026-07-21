@@ -129,6 +129,11 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
   /* benefits */
   .benefit{border-radius:20px;padding:22px 20px;margin-bottom:14px;
     background:linear-gradient(165deg,#171728,#0e0e1a);border:1px solid rgba(245,197,66,.22)}
+  .benefit img.shot{width:100%;border-radius:12px;margin:12px 0 2px;border:1px solid rgba(255,255,255,.12);display:block}
+  .photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0 2px}
+  .photo-grid img{width:100%;border-radius:10px;border:1px solid rgba(255,255,255,.12);display:block}
+  .voices.mini img{width:62%;max-width:260px}
+  .story-photo{width:100%;border-radius:16px;margin-bottom:14px;border:1px solid rgba(245,197,66,.3);display:block}
   .benefit .no{display:inline-block;font-size:10.5px;font-weight:900;letter-spacing:.14em;color:#1a1200;
     background:linear-gradient(180deg,var(--gold),#c98f12);border-radius:999px;padding:3px 12px;margin-bottom:10px}
   .benefit h3{font-size:17px;font-weight:900;line-height:1.5;margin-bottom:8px}
@@ -304,11 +309,6 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339349_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
       <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339351_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
       <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339348_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178592_0-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178598_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178597_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178595_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178594_0-1024x576.jpg" alt="メンバーの声" loading="lazy">
     </div>
     <p class="swipe-hint">← スワイプで他の声も見られます →</p>
     <a class="cta-btn" href="#join">この環境に参加する<span class="ar">▶</span></a>
@@ -322,22 +322,33 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     </div>
     <div class="benefit"><span class="no">特典 01</span>
       <h3>プロに相談できるDiscord環境</h3>
-      <p>設定狙い・ハイエナ・期待値稼働の疑問を、いつでも相談・質問できます。新台やハイエナの<b>狙い目速報も随時更新</b>。雑談部屋もあるので気軽に参加できます。</p></div>
+      <p>設定狙い・ハイエナ・期待値稼働の疑問を、いつでも相談・質問できます。新台やハイエナの<b>狙い目速報も随時更新</b>。雑談部屋もあるので気軽に参加できます。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178598_0-1-1024x576.jpg" alt="Discordでの相談の様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 02</span>
       <h3>稼働中のリアルタイムアドバイス</h3>
-      <p>「この台、続行かやめか」「空いたあの台はどうか」——稼働中の迷いに、データを見ながら<b>その場でアドバイス</b>。閉店間際の押し引きも独りで悩まなくてよくなります。</p></div>
+      <p>「この台、続行かやめか」「空いたあの台はどうか」——稼働中の迷いに、データを見ながら<b>その場でアドバイス</b>。閉店間際の押し引きも独りで悩まなくてよくなります。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178597_0-2-1024x576.jpg" alt="稼働中のリアルタイム相談の様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 03</span>
       <h3>立ち回り・データ取り・店舗チェック添削</h3>
-      <p>設定狙いで一番難しいのは店選び。あなたのホール状況・イベント日データを<b>エイト自らチェックして添削</b>します。これで優良店を見つけたメンバーが多数います。</p></div>
+      <p>設定狙いで一番難しいのは店選び。あなたのホール状況・イベント日データを<b>エイト自らチェックして添削</b>します。これで優良店を見つけたメンバーが多数います。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178595_0-1-1024x576.jpg" alt="店舗チェック・添削の様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 04</span>
       <h3>LIVEサポートを月3回開催</h3>
-      <p>店分析・データの見方・狙い台の決め方・設定推測・新台考察まで解説。質問コーナー付き、<b>過去アーカイブ85本以上が見放題</b>。YouTube未公開の旅打ちの裏側も公開しています。</p></div>
+      <p>店分析・データの見方・狙い台の決め方・設定推測・新台考察まで解説。質問コーナー付き、<b>過去アーカイブ85本以上が見放題</b>。YouTube未公開の旅打ちの裏側も公開しています。</p><img class="shot" src="https://pluslot8.com/wp-content/uploads/2024/10/S__131178594_0-1024x576.jpg" alt="LIVEサポートの様子" loading="lazy"></div>
     <div class="benefit"><span class="no">特典 05</span>
       <h3>全国オフ会・懇親会</h3>
-      <p>2ヶ月に1回ペースで主要都市にて開催（東京・名古屋・福岡・大阪・沖縄・北海道・仙台など）。<b>プロと一緒にホールで立ち回れる</b>、他にはない機会です。</p></div>
+      <p>2ヶ月に1回ペースで主要都市にて開催（東京・名古屋・福岡・大阪・沖縄・北海道・仙台など）。<b>プロと一緒にホールで立ち回れる</b>、他にはない機会です。</p>
+      <div class="photo-grid">
+        <img src="https://pluslot8.com/wp-content/uploads/2023/12/5CFF8933-58E9-4210-B9C5-945851BBED8F-1024x576.png" alt="オフ会の様子" loading="lazy">
+        <img src="https://pluslot8.com/wp-content/uploads/2024/07/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-8-1024x576.png" alt="オフ会の様子" loading="lazy">
+        <img src="https://pluslot8.com/wp-content/uploads/2024/03/S__129237044-1-1024x576.jpg" alt="オフ会の様子" loading="lazy">
+        <img src="https://pluslot8.com/wp-content/uploads/2024/07/4-1024x576.png" alt="オフ会の様子" loading="lazy">
+      </div></div>
     <div class="benefit"><span class="no">＋ 会員専用サイト</span>
       <h3>実戦データが揃う限定サイト</h3>
-      <p>他の解析サイトにはほとんど載っていない<b>【実際の高設定データ】【履歴読み】【メモ方法】</b>に加え、エイトの立ち回りポイントを簡潔に掲載。立ち回りに必須の情報だけが揃っています。</p></div>
+      <p>他の解析サイトにはほとんど載っていない<b>【実際の高設定データ】【履歴読み】【メモ方法】</b>に加え、エイトの立ち回りポイントを簡潔に掲載。立ち回りに必須の情報だけが揃っています。</p>
+      <div class="voices mini">
+        <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-12-1-1024x576.png" alt="会員専用サイト" loading="lazy">
+        <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-15-1024x576.png" alt="会員専用サイト" loading="lazy">
+        <img src="https://pluslot8.com/wp-content/uploads/2025/02/S__132587563-1024x800.jpg" alt="会員専用サイト" loading="lazy">
+      </div></div>
   </section>
 
   <!-- 活用例 -->
@@ -360,6 +371,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <div class="en">STORY</div>
       <h2>このコミュニティを<br>作った理由</h2>
     </div>
+    <img class="story-photo" src="https://pluslot8.com/wp-content/uploads/2026/03/%E6%9C%AC%E6%96%87%E3%82%92%E8%BF%BD%E5%8A%A0-18-1024x683.png" alt="エイト" loading="lazy">
     <div class="story">
       <p>僕も元々は、月に40万円負けたことも、勝ちたい一心で<b>30万円の嘘の攻略法を買った</b>こともある側の人間でした。</p>
       <p>勝つために必要なのは「勝てる人の考え方を知ること」だと気づいていたのに、独学にこだわった結果、何から手をつければいいか分からず、迷いと悩みの連続でした。</p>
