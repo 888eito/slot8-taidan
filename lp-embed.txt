@@ -219,7 +219,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
         <span class="goldtxt">勝てる環境が、<br>ここにある。</span></h1>
       <p class="lead">設定狙い・期待値稼働のプロ<b>8人</b>に<br>リアルタイムで相談できる<br>日本唯一のオンラインコミュニティ。</p>
       <div class="chips">
-        <span class="chip">指導者8名</span><span class="chip">稼働中の即レス相談</span><span class="chip">LIVEサポート月3回</span>
+        <span class="chip">指導者8名</span><span class="chip">稼働中の即レス相談</span><span class="chip">LIVEサポート月3回</span><span class="chip">コミュニティ限定サイト</span>
       </div>
       <a class="cta-btn" href="#join">今すぐコミュニティに参加する<span class="ar">▶</span></a>
       <p class="micro">月額9,800円｜期間の縛りなし｜スマホ1つでOK</p>
@@ -234,14 +234,15 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     </div>
     <div class="panel">
       <ul class="checks">
-        <li>期待値表どおりに打っているのに、収支が上がらない</li>
-        <li>設定狙いをしたいけど、何から始めればいいか分からない</li>
-        <li>高設定に座れない。座れても出ない</li>
-        <li>やめ時がいつも不安。「まだ追えた？」を繰り返している</li>
-        <li>店選びで失敗する。優良店の見極め方が分からない</li>
-        <li>稼働中に相談できる人が、ひとりもいない</li>
+        <li>期待値表や有料noteを見て立ち回っても、全然結果に繋がらない…</li>
+        <li>設定狙いしてみたけど、よく分からないし、合ってるのかどうか不安…</li>
+        <li>自分が通うホールや地域のデータを見て、設定狙いの助言をして欲しい…</li>
+        <li>以前に比べて、勝てる台が拾いにくくなってきた…</li>
+        <li>どのホールで、どうやって店のデータ取りをしたら良いか分からない…</li>
+        <li>収支はプラスだけど、収支や稼働時給をもっと上げたい</li>
+        <li>今はマイナス収支だから、とにかく少しでもプラスに変えたい</li>
       </ul>
-      <p class="closing">1つでも当てはまるなら、このページはあなたのためのものです。</p>
+      <p class="closing">1つでも当てはまったら、このコミュニティで解決できます。</p>
     </div>
   </section>
 
@@ -249,7 +250,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
   <section class="reveal-el">
     <div class="sec-head">
       <div class="en">REASON</div>
-      <h2>負け続けるのは、<br><b>「独学の限界」</b>が原因です</h2>
+      <h2>なぜ、調べて打っても<br><b>結果に繋がらない</b>のか？</h2>
     </div>
     <div class="cause">
       <span class="tag">原因 01</span>
@@ -280,38 +281,6 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <div class="coach"><span class="ico">兼</span><div><div class="nm">兼業プロ ほか</div><div class="ds">働きながら勝ち続ける、あなたに一番近いロールモデル</div></div></div>
     </div>
     <p class="coach-note">交流が苦手でもOK。エイトの情報を受け取って実践するだけでも、立ち回りは変わります。</p>
-  </section>
-
-  <!-- 実績 -->
-  <section class="reveal-el">
-    <div class="sec-head">
-      <div class="en">RESULTS</div>
-      <h2>結果は、数字が語ります</h2>
-    </div>
-    <div class="big-stat">
-      <div class="n"><span class="goldtxt">19人 全員</span></div>
-      <div class="l">2024年末の稼働報告で、報告者19人全員がプラス収支<br>うち過半数が＋100万円超え</div>
-    </div>
-    <div class="mini-stats">
-      <div class="ms"><span class="lb">土日休みの会社員</span><span class="vl">年−50万<br>→＋70万</span></div>
-      <div class="ms"><span class="lb">456童貞の兼業</span><span class="vl">月平均<br>＋70万</span></div>
-      <div class="ms"><span class="lb">週2稼働の経営者</span><span class="vl">収支<br>8倍</span></div>
-    </div>
-    <a class="digest-link" href="https://888eito.github.io/slot8-taidan/" target="_blank" rel="noopener">▶ この3人の実績者対談を3分で見る</a>
-    <div class="sec-head" style="margin-top:34px">
-      <h2 style="font-size:19px">メンバーの声</h2>
-    </div>
-    <div class="voices">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339353_0-3-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339350_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339354_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339345_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339349_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339351_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
-      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339348_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
-    </div>
-    <p class="swipe-hint">← スワイプで他の声も見られます →</p>
-    <a class="cta-btn" href="#join">この環境に参加する<span class="ar">▶</span></a>
   </section>
 
   <!-- 特典 -->
@@ -349,6 +318,38 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
         <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-15-1024x576.png" alt="会員専用サイト" loading="lazy">
         <img src="https://pluslot8.com/wp-content/uploads/2025/02/S__132587563-1024x800.jpg" alt="会員専用サイト" loading="lazy">
       </div></div>
+  </section>
+
+  <!-- 実績 -->
+  <section class="reveal-el">
+    <div class="sec-head">
+      <div class="en">RESULTS</div>
+      <h2>結果は、数字が語ります</h2>
+    </div>
+    <div class="big-stat">
+      <div class="n"><span class="goldtxt">19人 全員</span></div>
+      <div class="l">2024年末の稼働報告で、報告者19人全員がプラス収支<br>うち過半数が＋100万円超え</div>
+    </div>
+    <div class="mini-stats">
+      <div class="ms"><span class="lb">土日休みの会社員</span><span class="vl">年−50万<br>→＋70万</span></div>
+      <div class="ms"><span class="lb">456童貞の兼業</span><span class="vl">月平均<br>＋70万</span></div>
+      <div class="ms"><span class="lb">週2稼働の経営者</span><span class="vl">収支<br>8倍</span></div>
+    </div>
+    <a class="digest-link" href="https://888eito.github.io/slot8-taidan/" target="_blank" rel="noopener">▶ この3人の実績者対談を3分で見る</a>
+    <div class="sec-head" style="margin-top:34px">
+      <h2 style="font-size:19px">メンバーの声</h2>
+    </div>
+    <div class="voices">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339353_0-3-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339350_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339354_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339345_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339349_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339351_0-1-1024x576.jpg" alt="メンバーの声" loading="lazy">
+      <img src="https://pluslot8.com/wp-content/uploads/2023/08/S__122339348_0-2-1024x576.jpg" alt="メンバーの声" loading="lazy">
+    </div>
+    <p class="swipe-hint">← スワイプで他の声も見られます →</p>
+    <a class="cta-btn" href="#join">この環境に参加する<span class="ar">▶</span></a>
   </section>
 
   <!-- 活用例 -->
