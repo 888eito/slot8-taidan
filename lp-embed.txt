@@ -198,7 +198,8 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
   .sticky-cta .pr{font-size:11px;color:#c9c9da;font-weight:700;line-height:1.5;white-space:nowrap}
   .sticky-cta .pr b{display:block;font-size:15px;color:#fff}
   .sticky-cta a{flex:1;display:block;text-align:center;padding:13px;border-radius:999px;text-decoration:none;
-    background:linear-gradient(180deg,#ffd76a,#d9a51e);color:#221a02;font-weight:900;font-size:14.5px;white-space:nowrap}
+    background:linear-gradient(180deg,#ff5570,#e01f42);color:#fff;font-weight:900;font-size:14.5px;white-space:nowrap;
+    box-shadow:0 8px 22px -6px rgba(255,59,92,.7)}
 </style>
 
 
@@ -254,33 +255,17 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     </div>
     <div class="cause">
       <span class="tag">原因 01</span>
-      <h3>期待値表は"作られた条件"の数字</h3>
-      <p>期待値表は「出率を設定1に補正」「ptや状態は平均値」「AT当選まで打って即やめ」など、<b>実際のホールとは違う条件</b>で算出されています。低設定の高設定挙動、その逆も日常茶飯事。表の数字だけをなぞっても、適切な期待値は積めません。</p>
+      <h3>期待値表どおりに、現場は動かない</h3>
+      <p>期待値表は、たくさんのデータの<b>「平均」から作られた数字</b>です。あなたが今日座るその台・その店の状況までは教えてくれません。だから表のとおりに打っているだけでは、思ったように勝てないのです。</p>
     </div>
     <div class="cause">
       <span class="tag">原因 02</span>
-      <h3>「やめ時」で気づかないうちに欠損している</h3>
-      <p>56確定台でも、実は早くやめるべき状況があります。AT機は状況で機械割が変動するため、<b>「まだ追える」が欠損</b>だったり、「もうやめよう」が美味しい状況だったりする。この押し引きこそ、独学で一番身につかない部分です。</p>
+      <h3>勝ち負けは「やめ時」で決まっている</h3>
+      <p>同じ台でも「続けるべき時」と「やめるべき時」があります。ここを間違えると、<b>勝っているつもりでも少しずつ損</b>をしていきます。そしてこの押し引きは、ひとりで打っているだけではなかなか身につきません。</p>
     </div>
     <div class="conclusion">
       必要なのは、もっと多くの情報ではなく<br><b>判断をその場で正してくれる「環境」</b>です。
     </div>
-  </section>
-
-  <!-- 解決=環境 -->
-  <section class="reveal-el">
-    <div class="sec-head">
-      <div class="en">SOLUTION</div>
-      <h2><b>プロ8人</b>があなたの稼働を<br>毎日見てくれる環境</h2>
-    </div>
-    <div class="coach-list">
-      <div class="coach"><span class="ico">8</span><div><div class="nm">エイト</div><div class="ds">4ヶ月の旅打ち企画で＋200万円。全国どこでも勝つ分析力</div></div></div>
-      <div class="coach"><span class="ico">P</span><div><div class="nm">現役プロ</div><div class="ds">20年近くパチスロで生活し続ける生粋の勝ち組</div></div></div>
-      <div class="coach"><span class="ico">軍</span><div><div class="nm">元軍団長</div><div class="ds">数十人を束ねた経験を持つ、店読みのスペシャリスト</div></div></div>
-      <div class="coach"><span class="ico">ハ</span><div><div class="nm">ハイエナ専門プロ</div><div class="ds">期待値稼働を極めた即レス要員</div></div></div>
-      <div class="coach"><span class="ico">兼</span><div><div class="nm">兼業プロ ほか</div><div class="ds">働きながら勝ち続ける、あなたに一番近いロールモデル</div></div></div>
-    </div>
-    <p class="coach-note">交流が苦手でもOK。エイトの情報を受け取って実践するだけでも、立ち回りは変わります。</p>
   </section>
 
   <!-- 特典 -->
@@ -318,6 +303,22 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
         <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-15-1024x576.png" alt="会員専用サイト" loading="lazy">
         <img src="https://pluslot8.com/wp-content/uploads/2025/02/S__132587563-1024x800.jpg" alt="会員専用サイト" loading="lazy">
       </div></div>
+  </section>
+
+  <!-- 解決=環境 -->
+  <section class="reveal-el">
+    <div class="sec-head">
+      <div class="en">SOLUTION</div>
+      <h2><b>プロ8人</b>があなたの稼働を<br>毎日見てくれる環境</h2>
+    </div>
+    <div class="coach-list">
+      <div class="coach"><span class="ico">8</span><div><div class="nm">エイト</div><div class="ds">4ヶ月の旅打ち企画で＋200万円。全国どこでも勝つ分析力</div></div></div>
+      <div class="coach"><span class="ico">P</span><div><div class="nm">現役プロ</div><div class="ds">20年近くパチスロで生活し続ける生粋の勝ち組</div></div></div>
+      <div class="coach"><span class="ico">軍</span><div><div class="nm">元軍団長</div><div class="ds">数十人を束ねた経験を持つ、店読みのスペシャリスト</div></div></div>
+      <div class="coach"><span class="ico">ハ</span><div><div class="nm">ハイエナ専門プロ</div><div class="ds">期待値稼働を極めた即レス要員</div></div></div>
+      <div class="coach"><span class="ico">兼</span><div><div class="nm">兼業プロ ほか</div><div class="ds">働きながら勝ち続ける、あなたに一番近いロールモデル</div></div></div>
+    </div>
+    <p class="coach-note">交流が苦手でもOK。エイトの情報を受け取って実践するだけでも、立ち回りは変わります。</p>
   </section>
 
   <!-- 実績 -->
