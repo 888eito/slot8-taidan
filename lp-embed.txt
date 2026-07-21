@@ -153,6 +153,9 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
   .story p{font-size:14px;color:#e6e6f2;margin-bottom:14px}
   .story p:last-of-type{margin-bottom:0}
   .story b{color:var(--gold2)}
+  .story-list{list-style:none;margin:2px 0 14px;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.04);border:1px dashed rgba(245,197,66,.25)}
+  .story-list li{position:relative;padding:3px 0 3px 18px;font-size:13px;color:#c9c9da;font-weight:700}
+  .story-list li::before{content:"・";position:absolute;left:2px;color:var(--gold)}
   .story .sig{margin-top:16px;text-align:right;font-size:12.5px;color:var(--gold);font-weight:900;letter-spacing:.1em}
 
   /* FAQ */
@@ -375,9 +378,25 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     </div>
     <img class="story-photo" src="https://pluslot8.com/wp-content/uploads/2026/03/%E6%9C%AC%E6%96%87%E3%82%92%E8%BF%BD%E5%8A%A0-18-1024x683.png" alt="エイト" loading="lazy">
     <div class="story">
-      <p>僕も元々は、月に40万円負けたことも、勝ちたい一心で<b>30万円の嘘の攻略法を買った</b>こともある側の人間でした。</p>
-      <p>勝つために必要なのは「勝てる人の考え方を知ること」だと気づいていたのに、独学にこだわった結果、何から手をつければいいか分からず、迷いと悩みの連続でした。</p>
-      <p>学校では先生が答えを教えてくれます。でも、<b>パチンコ店では誰も答えを教えてくれません。</b>その悩みと不安を解決する場所を作りたくて、このコミュニティを立ち上げました。</p>
+      <p>僕はこれまでに、周りの人と同じように働き、遊びながらパチスロで勝ち続けてきました。今ではどこへ行っても勝てるようにもなり『いつもYouTube見てます』とか『弟子にしてください』と言われるようにまでなりましたが、元々は<b>月に40万円負けたり</b>、勝ちたいのに勝てないことがきっかけで、<b>30万円の嘘の攻略法を買った</b>経験もあります。</p>
+      <p>勝つためには<b>【勝てる人の意見や考え方を知ることが重要】</b>と気づいていたものの、自分の力だけでなんとかしようとした結果、何から手をつけて良いか分からず、迷ったり悩んだりの連続だったことを鮮明に覚えています。</p>
+      <ul class="story-list">
+        <li>データはどう見るの？</li>
+        <li>狙い台はどう決めるの？</li>
+        <li>お店のどこを見れば良いの？</li>
+        <li>この店ではどう立ち回れば良いの？</li>
+        <li>この機種の狙い方とやめ時は？</li>
+        <li>次の人に出されたけどやめて良かった？</li>
+        <li>ハイエナされないか不安</li>
+        <li>立ち回りが合っているのか不安</li>
+        <li>ひとりじゃ不安</li>
+        <li>優良店の見極め方が分からない</li>
+        <li>設定の見極め方やポイントが分からない</li>
+        <li>調べ方が分からない</li>
+        <li>勝てなくなってしまった</li>
+      </ul>
+      <p>情報過多の現代でも、このように悩んだりつまずいている人は多いのではないでしょうか。<br>学校では先生が答えを教えてくれるけど、<b>パチンコ店では誰も答えを教えてくれません。</b></p>
+      <p>そんな皆さんの悩み・不安を完全解決したいと思い、今回のコミュニティを作りました。</p>
       <p class="sig">パチスロ攻略 エイト</p>
     </div>
   </section>
