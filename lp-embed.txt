@@ -10,7 +10,9 @@ html,body,#container,#body,#wrap,.wrap,.body,.main-wrap,#main-wrap{background:#0
 #main,.main,#content,.content,.content-in,.wrap,.main-wrap,.article,.entry-content,.post,.page{
   max-width:100% !important;width:100% !important;margin:0 !important;padding:0 !important;
   background:transparent !important;border:none !important;box-shadow:none !important}
-.entry-content>*{margin:0}
+main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background:none !important;background-image:none !important;border:none !important;padding:0 !important;color:inherit !important;border-radius:0 !important;box-shadow:none !important}
+.entry-content>*{margin-top:0;margin-bottom:0}
+.entry-content main,.entry-content>main{margin-left:auto !important;margin-right:auto !important}
 
   :root{
     --bg:#07070f; --gold:#f5c542; --gold2:#ffe8a3; --red:#ff3b5c; --cyan:#3fd8ff;
