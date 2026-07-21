@@ -6,7 +6,7 @@
 .breadcrumb,.article-header,.article-footer,.entry-title,.date-tags,.author-info,
 .go-to-top-button,.ad-area,.wp-block-post-title,#wpadminbar ~ .admin-bar-space{display:none !important}
 html{margin-top:0 !important}
-body{background:#07070f !important}
+html,body,#container,#body,#wrap,.wrap,.body,.main-wrap,#main-wrap{background:#07070f !important;background-image:none !important}
 #main,.main,#content,.content,.content-in,.wrap,.main-wrap,.article,.entry-content,.post,.page{
   max-width:100% !important;width:100% !important;margin:0 !important;padding:0 !important;
   background:transparent !important;border:none !important;box-shadow:none !important}
@@ -20,7 +20,7 @@ body{background:#07070f !important}
   body{font-family:'Noto Sans JP',system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;
     background:var(--bg);color:#fff;overflow-x:hidden;line-height:1.75}
   /* background fx */
-  .bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;background:#07070f}
   .bg-fx::before{content:"";position:absolute;inset:-20%;
     background:radial-gradient(circle at 20% 12%,rgba(245,197,66,.10),transparent 40%),
       radial-gradient(circle at 82% 60%,rgba(63,216,255,.06),transparent 45%),
@@ -424,17 +424,26 @@ body{background:#07070f !important}
 </div>
 
 <script>
-  // reveal on scroll
-  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{threshold:.12});
-  document.querySelectorAll('.reveal-el').forEach(x=>io.observe(x));
-  // sticky CTA: show after hero, hide at price section
-  const sticky=document.getElementById('stickyCta');
-  const hero=document.querySelector('.hero');
-  const join=document.getElementById('join');
-  addEventListener('scroll',()=>{
-    const past=scrollY>hero.offsetHeight*0.7;
-    const r=join.getBoundingClientRect();
-    const atJoin=r.top<innerHeight&&r.bottom>0;
-    sticky.classList.toggle('show',past&&!atJoin);
-  },{passive:true});
+(function(){
+  try{
+    var els=document.querySelectorAll('.reveal-el');
+    if('IntersectionObserver' in window){
+      var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');ob.unobserve(e.target);}});},{threshold:.12});
+      els.forEach(function(x){ob.observe(x);});
+    } else { els.forEach(function(x){x.classList.add('on');}); }
+    var sticky=document.getElementById('stickyCta');
+    var hero=document.querySelector('.hero');
+    var join=document.getElementById('join');
+    if(sticky&&hero&&join){
+      window.addEventListener('scroll',function(){
+        var past=window.scrollY>hero.offsetHeight*0.7;
+        var r=join.getBoundingClientRect();
+        var atJoin=r.top<window.innerHeight&&r.bottom>0;
+        sticky.classList.toggle('show',past&&!atJoin);
+      },{passive:true});
+    }
+  }catch(err){
+    document.querySelectorAll('.reveal-el').forEach(function(x){x.classList.add('on');});
+  }
+})();
 </script>
