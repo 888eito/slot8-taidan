@@ -248,24 +248,6 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       </ul>
       <p class="closing">1つでも当てはまったら、このコミュニティで解決できます。</p>
     </div>
-  </section>
-
-  <!-- 原因 -->
-  <section class="reveal-el">
-    <div class="sec-head">
-      <div class="en">REASON</div>
-      <h2>なぜ、調べて打っても<br><b>結果に繋がらない</b>のか？</h2>
-    </div>
-    <div class="cause">
-      <span class="tag">原因 01</span>
-      <h3>期待値表どおりに、現場は動かない</h3>
-      <p>期待値表は、たくさんのデータの<b>「平均」から作られた数字</b>です。あなたが今日座るその台・その店の状況までは教えてくれません。だから表のとおりに打っているだけでは、思ったように勝てないのです。</p>
-    </div>
-    <div class="cause">
-      <span class="tag">原因 02</span>
-      <h3>勝ち負けは「やめ時」で決まっている</h3>
-      <p>同じ台でも「続けるべき時」と「やめるべき時」があります。ここを間違えると、<b>勝っているつもりでも少しずつ損</b>をしていきます。そしてこの押し引きは、ひとりで打っているだけではなかなか身につきません。</p>
-    </div>
     <div class="conclusion">
       必要なのは、もっと多くの情報ではなく<br><b>判断をその場で正してくれる「環境」</b>です。
     </div>
@@ -301,9 +283,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     <div class="benefit"><span class="no">＋ 会員専用サイト</span>
       <h3>実戦データが揃う限定サイト</h3>
       <p>他の解析サイトにはほとんど載っていない<b>【実際の高設定データ】【履歴読み】【メモ方法】</b>に加え、エイトの立ち回りポイントを簡潔に掲載。立ち回りに必須の情報だけが揃っています。</p>
-      <div class="voices mini">
-        <img src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-12-1-1024x576.png" alt="会員専用サイト" loading="lazy">
-      </div></div>
+      <img class="shot" src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-12-1-1024x576.png" alt="会員専用サイト" loading="lazy"></div>
   </section>
 
   <!-- 解決=環境 -->
