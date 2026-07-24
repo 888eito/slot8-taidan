@@ -240,7 +240,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       </div>
       <a class="cta-btn" href="PAYMENT_URL_HERE">今すぐコミュニティに参加する<span class="ar">▶</span></a>
       <!-- 募集バッジここから（募集終了後はこのブロックを削除） -->
-      <div class="recruit">🚨 7/25(土)20:00 募集開始<br><b>先着20名・増枠なし</b></div>
+      <div class="recruit">&#x1F6A8; 7/25(土)20:00 募集開始<br><b>先着20名・増枠なし</b></div>
       <!-- 募集バッジここまで -->
       <p class="micro">月額9,800円｜期間の縛りなし｜スマホ1つでOK</p>
     </div>
@@ -326,8 +326,8 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <h2>結果は、数字が語ります</h2>
     </div>
     <div class="big-stat">
-      <div class="n"><span class="goldtxt">報告者 全員プラス</span></div>
-      <div class="l">直近の稼働報告では、報告者全員がプラス収支を達成<br>うち過半数が＋100万円超え</div>
+      <div class="n" style="font-size:25px;line-height:1.5"><span class="goldtxt">この環境を使い倒している人は<br>結果が出ています</span></div>
+      <div class="l">報告者全員がプラス収支・うち過半数が＋100万円超え</div>
     </div>
     <div class="mini-stats">
       <div class="ms"><span class="lb">土日休みの会社員</span><span class="vl">年−50万<br>→＋70万</span></div>
@@ -406,7 +406,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
     <details class="faq"><summary>どんな内容が学べますか？</summary><div class="body">パチスロで勝つための全てを扱いますが、特に設定狙いを深掘りしています。ホールデータの取り方、クセ読み、状況把握、ホール内での動き方まで。期待値稼働のプロも多数在籍し、入会したその日から相談できます。</div></details>
     <details class="faq"><summary>パソコンは必要ですか？</summary><div class="body">スマホ1つで完結します。日々のやり取り、データ取り、資料や動画、メンバー限定LIVEまで全てスマホで参加可能。稼働しながら参加する方もいます。</div></details>
     <details class="faq"><summary>他のメンシプやコミュニティと何が違うのですか？</summary><div class="body">実戦経験豊富な指導者から直接フィードバックを受けられる点です。稼働中の相談に即時回答が得られ、ホールデータも確認してもらえます。月3回のLIVE、オフ会・同行・合宿など、プロと一緒に立ち回れる機会があるのも大きな違いです。</div></details>
-    <details class="faq"><summary>入会すれば必ず収支アップしますか？</summary><div class="body">実収支が必ずプラスになるとは言えませんが、理論上プラスの立ち回りが身につくため、多くのメンバーが収支を伸ばしています。直近の稼働報告では、報告者全員がプラス収支、過半数が100万円超えを記録しています。</div></details>
+    <details class="faq"><summary>入会すれば必ず収支アップしますか？</summary><div class="body">実収支が必ずプラスになるとは言えませんが、理論上プラスの立ち回りが身につくため、多くのメンバーが収支を伸ばしています。実際に、報告者全員がプラス収支、過半数が100万円超えを記録しています。</div></details>
     <details class="faq"><summary>本当にサポートしてくれますか？</summary><div class="body">エイト含め指導者は、質問の全てに全力で回答しています。立ち回りの問題や悩みは、チャットで質問いただければ解決していきます。</div></details>
     <details class="faq"><summary>退会条件はありますか？</summary><div class="body">1ヶ月ごとの前払い制で、期間の縛りはなくいつでも退会可能です。退会希望の場合は1週間前までに、エイトへの連絡と退会フォームの入力をお願いしています。</div></details>
   </section>
