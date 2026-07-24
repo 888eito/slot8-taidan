@@ -184,6 +184,19 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
   .price .cta-btn{background:linear-gradient(180deg,#ff5570,#e01f42);color:#fff;
     box-shadow:0 14px 34px -8px rgba(255,59,92,.6)}
 
+  .recruit{margin:16px auto 0;max-width:340px;border-radius:12px;padding:10px 14px;text-align:center;
+    background:rgba(255,59,92,.12);border:1px solid rgba(255,59,92,.55);font-size:13px;font-weight:900;color:#ff9db0;
+    animation:pulseb 2.6s ease-in-out infinite}
+  .recruit b{color:#fff}
+  .price .slots{display:inline-block;margin:0 auto 14px;border-radius:999px;padding:5px 16px;
+    background:rgba(255,59,92,.15);border:1px solid rgba(255,59,92,.55);font-size:12px;font-weight:900;color:#ff9db0}
+  .steps{display:grid;gap:10px;margin-bottom:18px}
+  .step{display:flex;gap:12px;align-items:center;border-radius:14px;padding:13px 15px;
+    background:linear-gradient(165deg,#171728,#0e0e1a);border:1px solid rgba(255,255,255,.1)}
+  .step .n{width:30px;height:30px;flex-shrink:0;border-radius:50%;background:linear-gradient(180deg,var(--gold),#c98f12);
+    color:#1a1200;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:14px}
+  .step p{font-size:13px;font-weight:700;color:#e6e6f2}
+  .step p b{color:var(--gold2)}
   /* notes/footer */
   details.notes{border-radius:14px;background:#0d0d18;border:1px solid rgba(255,255,255,.08);margin-top:22px}
   details.notes summary{list-style:none;cursor:pointer;padding:14px 16px;font-size:12.5px;font-weight:900;color:#a9a9c0}
@@ -226,6 +239,9 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
         <span class="chip">指導者8名</span><span class="chip">稼働中の即レス相談</span><span class="chip">LIVEサポート月3回</span><span class="chip">コミュニティ限定サイト</span>
       </div>
       <a class="cta-btn" href="PAYMENT_URL_HERE">今すぐコミュニティに参加する<span class="ar">▶</span></a>
+      <!-- 募集バッジここから（募集終了後はこのブロックを削除） -->
+      <div class="recruit">🚨 7/25(土)20:00 募集開始<br><b>先着20名・増枠なし</b></div>
+      <!-- 募集バッジここまで -->
       <p class="micro">月額9,800円｜期間の縛りなし｜スマホ1つでOK</p>
     </div>
   </section>
@@ -284,6 +300,7 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       <h3>実戦データが揃う限定サイト</h3>
       <p>他の解析サイトにはほとんど載っていない<b>【実際の高設定データ】【履歴読み】【メモ方法】</b>に加え、エイトの立ち回りポイントを簡潔に掲載。立ち回りに必須の情報だけが揃っています。</p>
       <img class="shot" src="https://pluslot8.com/wp-content/uploads/2025/02/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%AD%E3%83%B3-12-1-1024x576.png" alt="会員専用サイト" loading="lazy"></div>
+    <a class="cta-btn" href="PAYMENT_URL_HERE">この特典をすべて受け取る<span class="ar">▶</span></a>
   </section>
 
   <!-- 解決=環境 -->
@@ -396,8 +413,20 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
 
   <!-- 料金 -->
   <section id="join" class="reveal-el">
+    <div class="sec-head">
+      <div class="en">HOW TO JOIN</div>
+      <h2>参加までの流れ</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><p>下のボタンから<b>カード決済</b>（VISA / Master / JCB / Amex / Diners）</p></div>
+      <div class="step"><span class="n">2</span><p>決済完了後、<b>参加のご案内</b>が届きます</p></div>
+      <div class="step"><span class="n">3</span><p><b>Discordに参加</b>して、その日から相談OK</p></div>
+    </div>
     <div class="price">
       <span class="tag">JOIN NOW</span>
+      <!-- 募集バッジここから（募集終了後はこの1行を削除） -->
+      <div class="slots">先着20名限定｜定員に達し次第締切</div>
+      <!-- 募集バッジここまで -->
       <div class="sec-head" style="margin-bottom:10px">
         <h2>勝てる環境に、<br>身を置いてみませんか？</h2>
       </div>
