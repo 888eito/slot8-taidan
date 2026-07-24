@@ -432,10 +432,10 @@ main h2,main h3,.entry-content h2,.entry-content h3,.entry-content h4{background
       </div>
       <div class="amount"><small>月額</small> <b>9,800</b><small>円（税込）</small></div>
       <ul>
-        <li>期間の縛りなし・いつでも退会OK</li>
         <li>入会したその日から相談できる</li>
         <li>LIVEアーカイブ140本以上が見放題</li>
         <li>スマホ1つで完結</li>
+        <li>期間の縛りなし・いつでも退会OK</li>
       </ul>
       <a class="cta-btn" href="PAYMENT_URL_HERE">今すぐコミュニティに参加する<span class="ar">▶</span></a>
       <p class="cards-note">クレジットカード対応：VISA / Master / JCB / Amex / Diners</p>
